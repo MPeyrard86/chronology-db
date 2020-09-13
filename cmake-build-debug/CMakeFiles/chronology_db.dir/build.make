@@ -76,50 +76,75 @@ include CMakeFiles/chronology_db.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/chronology_db.dir/flags.make
 
-CMakeFiles/chronology_db.dir/main.cpp.obj: CMakeFiles/chronology_db.dir/flags.make
-CMakeFiles/chronology_db.dir/main.cpp.obj: CMakeFiles/chronology_db.dir/includes_CXX.rsp
-CMakeFiles/chronology_db.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chronology_db.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chronology_db.dir\main.cpp.obj -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\main.cpp"
+CMakeFiles/chronology_db.dir/src/main.cpp.obj: CMakeFiles/chronology_db.dir/flags.make
+CMakeFiles/chronology_db.dir/src/main.cpp.obj: CMakeFiles/chronology_db.dir/includes_CXX.rsp
+CMakeFiles/chronology_db.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chronology_db.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chronology_db.dir\src\main.cpp.obj -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\main.cpp"
 
-CMakeFiles/chronology_db.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chronology_db.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\main.cpp" > CMakeFiles\chronology_db.dir\main.cpp.i
+CMakeFiles/chronology_db.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chronology_db.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\main.cpp" > CMakeFiles\chronology_db.dir\src\main.cpp.i
 
-CMakeFiles/chronology_db.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chronology_db.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\main.cpp" -o CMakeFiles\chronology_db.dir\main.cpp.s
+CMakeFiles/chronology_db.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chronology_db.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\main.cpp" -o CMakeFiles\chronology_db.dir\src\main.cpp.s
 
-CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj: CMakeFiles/chronology_db.dir/flags.make
-CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj: CMakeFiles/chronology_db.dir/includes_CXX.rsp
-CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj: ../app/chronology_configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chronology_db.dir\app\chronology_configuration.cpp.obj -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\app\chronology_configuration.cpp"
+CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj: CMakeFiles/chronology_db.dir/flags.make
+CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj: CMakeFiles/chronology_db.dir/includes_CXX.rsp
+CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj: ../src/configuration/chronology_configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chronology_db.dir\src\configuration\chronology_configuration.cpp.obj -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\chronology_configuration.cpp"
 
-CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\app\chronology_configuration.cpp" > CMakeFiles\chronology_db.dir\app\chronology_configuration.cpp.i
+CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\chronology_configuration.cpp" > CMakeFiles\chronology_db.dir\src\configuration\chronology_configuration.cpp.i
 
-CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\app\chronology_configuration.cpp" -o CMakeFiles\chronology_db.dir\app\chronology_configuration.cpp.s
+CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\chronology_configuration.cpp" -o CMakeFiles\chronology_db.dir\src\configuration\chronology_configuration.cpp.s
+
+CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj: CMakeFiles/chronology_db.dir/flags.make
+CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj: CMakeFiles/chronology_db.dir/includes_CXX.rsp
+CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj: ../src/configuration/logging_configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chronology_db.dir\src\configuration\logging_configuration.cpp.obj -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\logging_configuration.cpp"
+
+CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\logging_configuration.cpp" > CMakeFiles\chronology_db.dir\src\configuration\logging_configuration.cpp.i
+
+CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\src\configuration\logging_configuration.cpp" -o CMakeFiles\chronology_db.dir\src\configuration\logging_configuration.cpp.s
 
 # Object files for target chronology_db
 chronology_db_OBJECTS = \
-"CMakeFiles/chronology_db.dir/main.cpp.obj" \
-"CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj"
+"CMakeFiles/chronology_db.dir/src/main.cpp.obj" \
+"CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj" \
+"CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj"
 
 # External object files for target chronology_db
 chronology_db_EXTERNAL_OBJECTS =
 
-chronology_db.exe: CMakeFiles/chronology_db.dir/main.cpp.obj
-chronology_db.exe: CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj
+chronology_db.exe: CMakeFiles/chronology_db.dir/src/main.cpp.obj
+chronology_db.exe: CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj
+chronology_db.exe: CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj
 chronology_db.exe: CMakeFiles/chronology_db.dir/build.make
+chronology_db.exe: C:/MinGW/lib/libboost_log_setup.a
+chronology_db.exe: C:/MinGW/lib/libboost_log.a
+chronology_db.exe: C:/MinGW/lib/libboost_system.a
+chronology_db.exe: C:/MinGW/lib/libboost_filesystem.a
 chronology_db.exe: C:/MinGW/lib/libboost_locale.a
+chronology_db.exe: C:/MinGW/lib/libboost_date_time.a
+chronology_db.exe: C:/MinGW/lib/libboost_thread.a
+chronology_db.exe: C:/MinGW/lib/libboost_regex.a
+chronology_db.exe: C:/MinGW/lib/libboost_chrono.a
+chronology_db.exe: C:/MinGW/lib/libboost_atomic.a
 chronology_db.exe: CMakeFiles/chronology_db.dir/linklibs.rsp
 chronology_db.exe: CMakeFiles/chronology_db.dir/objects1.rsp
 chronology_db.exe: CMakeFiles/chronology_db.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable chronology_db.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable chronology_db.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\chronology_db.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

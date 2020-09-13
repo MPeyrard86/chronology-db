@@ -1,0 +1,7 @@
+{
+  "data-directory": "/data",
+  "logging-configuration": {
+    "directory": ".",
+    "rotation-size": 16384
+  }
+}

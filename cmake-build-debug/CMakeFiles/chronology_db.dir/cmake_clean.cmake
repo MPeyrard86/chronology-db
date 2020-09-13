@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj"
-  "CMakeFiles/chronology_db.dir/main.cpp.obj"
+  "CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj"
+  "CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj"
+  "CMakeFiles/chronology_db.dir/src/main.cpp.obj"
   "chronology_db.exe"
   "chronology_db.exe.manifest"
   "chronology_db.pdb"

@@ -514,3 +514,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_acf75/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_acf75.dir\build.make CMakeFiles/cmTC_acf75.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acf75.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_acf75.dir\CheckIncludeFile.c.obj   -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_acf75.exe
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_acf75.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_acf75.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_acf75.dir/objects.a @CMakeFiles\cmTC_acf75.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_acf75.dir/objects.a -Wl,--no-whole-archive  -o cmTC_acf75.exe -Wl,--out-implib,libcmTC_acf75.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_acf75.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_4d704/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4d704.dir\build.make CMakeFiles/cmTC_4d704.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d704.dir/src.c.obj
+C:\MinGW\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\cmTC_4d704.dir\src.c.obj   -c "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_4d704.exe
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4d704.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4d704.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4d704.dir/objects.a @CMakeFiles\cmTC_4d704.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD    -Wl,--whole-archive CMakeFiles\cmTC_4d704.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4d704.exe -Wl,--out-implib,libcmTC_4d704.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4d704.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

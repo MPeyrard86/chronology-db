@@ -5,7 +5,7 @@
 		<Option title="chronology_db"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\configuration\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/cmake-build-debug"/>
@@ -25,6 +25,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DBOOST_NO_AUTO_PTR=1"/>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS=1"/>
 					<Add directory="C:/MinGW/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
@@ -48,6 +49,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DBOOST_NO_AUTO_PTR=1"/>
+					<Add option="-DBOOST_NO_CXX11_SCOPED_ENUMS=1"/>
 					<Add directory="C:/MinGW/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../include/c++/9.2.0/x86_64-w64-mingw32"/>
@@ -84,17 +86,29 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/app/chronology_configuration.cpp">
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/configuration/chronology_configuration.cpp">
 			<Option target="chronology_db"/>
 		</Unit>
-		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/app/chronology_configuration.h">
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/configuration/chronology_configuration.h">
 			<Option target="chronology_db"/>
 		</Unit>
-		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/main.cpp">
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/configuration/logging_configuration.cpp">
+			<Option target="chronology_db"/>
+		</Unit>
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/configuration/logging_configuration.h">
+			<Option target="chronology_db"/>
+		</Unit>
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/main.cpp">
 			<Option target="chronology_db"/>
 		</Unit>
 		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Matthew Peyrard/CLionProjects/chronology-db/src/configuration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\configuration\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

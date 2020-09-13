@@ -142,59 +142,86 @@ chronology_db/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/build
 .PHONY : chronology_db/fast
 
-app/chronology_configuration.obj: app/chronology_configuration.cpp.obj
+src/configuration/chronology_configuration.obj: src/configuration/chronology_configuration.cpp.obj
 
-.PHONY : app/chronology_configuration.obj
-
-# target to build an object file
-app/chronology_configuration.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.obj
-.PHONY : app/chronology_configuration.cpp.obj
-
-app/chronology_configuration.i: app/chronology_configuration.cpp.i
-
-.PHONY : app/chronology_configuration.i
-
-# target to preprocess a source file
-app/chronology_configuration.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.i
-.PHONY : app/chronology_configuration.cpp.i
-
-app/chronology_configuration.s: app/chronology_configuration.cpp.s
-
-.PHONY : app/chronology_configuration.s
-
-# target to generate assembly for a file
-app/chronology_configuration.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/app/chronology_configuration.cpp.s
-.PHONY : app/chronology_configuration.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : src/configuration/chronology_configuration.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/configuration/chronology_configuration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.obj
+.PHONY : src/configuration/chronology_configuration.cpp.obj
 
-main.i: main.cpp.i
+src/configuration/chronology_configuration.i: src/configuration/chronology_configuration.cpp.i
 
-.PHONY : main.i
+.PHONY : src/configuration/chronology_configuration.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/configuration/chronology_configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.i
+.PHONY : src/configuration/chronology_configuration.cpp.i
 
-main.s: main.cpp.s
+src/configuration/chronology_configuration.s: src/configuration/chronology_configuration.cpp.s
 
-.PHONY : main.s
+.PHONY : src/configuration/chronology_configuration.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/configuration/chronology_configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/chronology_configuration.cpp.s
+.PHONY : src/configuration/chronology_configuration.cpp.s
+
+src/configuration/logging_configuration.obj: src/configuration/logging_configuration.cpp.obj
+
+.PHONY : src/configuration/logging_configuration.obj
+
+# target to build an object file
+src/configuration/logging_configuration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.obj
+.PHONY : src/configuration/logging_configuration.cpp.obj
+
+src/configuration/logging_configuration.i: src/configuration/logging_configuration.cpp.i
+
+.PHONY : src/configuration/logging_configuration.i
+
+# target to preprocess a source file
+src/configuration/logging_configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.i
+.PHONY : src/configuration/logging_configuration.cpp.i
+
+src/configuration/logging_configuration.s: src/configuration/logging_configuration.cpp.s
+
+.PHONY : src/configuration/logging_configuration.s
+
+# target to generate assembly for a file
+src/configuration/logging_configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/configuration/logging_configuration.cpp.s
+.PHONY : src/configuration/logging_configuration.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -205,12 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... chronology_db
-	@echo ... app/chronology_configuration.obj
-	@echo ... app/chronology_configuration.i
-	@echo ... app/chronology_configuration.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/configuration/chronology_configuration.obj
+	@echo ... src/configuration/chronology_configuration.i
+	@echo ... src/configuration/chronology_configuration.s
+	@echo ... src/configuration/logging_configuration.obj
+	@echo ... src/configuration/logging_configuration.i
+	@echo ... src/configuration/logging_configuration.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

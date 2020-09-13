@@ -19,6 +19,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CheckCSourceCompiles.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFile.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/CheckLibraryExists.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake"
@@ -26,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/FindBoost.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/FindThreads.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2020.2.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C.cmake"
@@ -41,6 +45,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
+  "../src/configuration/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -52,6 +58,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/configuration/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

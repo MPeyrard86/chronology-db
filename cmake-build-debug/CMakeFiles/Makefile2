@@ -73,18 +73,56 @@ CMAKE_BINARY_DIR = "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-b
 
 # The main recursive "all" target.
 all: CMakeFiles/chronology_db.dir/all
+all: src/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/chronology_db.dir/clean
+clean: src/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/configuration/all
+
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall: src/configuration/preinstall
+
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/configuration/clean
+
+.PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/configuration
+
+# Recursive "all" directory target.
+src/configuration/all:
+
+.PHONY : src/configuration/all
+
+# Recursive "preinstall" directory target.
+src/configuration/preinstall:
+
+.PHONY : src/configuration/preinstall
+
+# Recursive "clean" directory target.
+src/configuration/clean:
+
+.PHONY : src/configuration/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/chronology_db.dir
@@ -93,12 +131,12 @@ clean: CMakeFiles/chronology_db.dir/clean
 CMakeFiles/chronology_db.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chronology_db.dir\build.make CMakeFiles/chronology_db.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target chronology_db"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target chronology_db"
 .PHONY : CMakeFiles/chronology_db.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chronology_db.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/chronology_db.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Matthew Peyrard\CLionProjects\chronology-db\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/chronology_db.dir/rule
